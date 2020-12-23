@@ -5,6 +5,6 @@ This is considered as the most basic project in python. I have used the `time` a
 ###### Output 
 ![](Dice-Simulator/output.JPG)
 ## Dice Game
-This project uses the concept of [Dice Simulator](Dice-Simulator/dice_simulator.py). [This](Dice-Game) game supports multi-players and multi-rounds.  
-Here's the output:  
+This project uses the concept of [Dice Simulator](Dice-Simulator/dice_simulator.py). [This](Dice-Game) game supports multi-players and multi-rounds.    
+##### Output 
 ![](Dice-Game/output.JPG)
