@@ -2,6 +2,7 @@ import random as rd
 import time
 
 def DiceRoll(attempts):
+  '''Main function of Dice Roll'''
   scores = []
   for attempt in range(attempts):
     print('\nAttempts Remaining:', attempts - attempt)
@@ -14,6 +15,7 @@ def DiceRoll(attempts):
   return scores
 
 def try_more():
+  '''Ask the user that whether they want to roll a dice again or not and proceed further accordingly'''
   time.sleep(1)
   decision = input('\nWould you like to roll a dice once again (y/n)? ').lower()
   if decision == 'y':
@@ -31,6 +33,7 @@ def try_more():
     return 
 
 def print_scores(scores):
+  '''Returns the attempt-wise scores'''
   for score in range(1, len(scores)+1):
     print(f'Attempt {score}: {scores[score-1]}')
 
