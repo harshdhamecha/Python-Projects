@@ -2,10 +2,12 @@ import random as rd
 import time
 
 def AllMaximum(scores):
+  '''Returns the index of all maximum elements presents in a list'''
   maxi = max(scores)
   return [index for index, item in enumerate(scores) if item == maxi]
 
 def HandleEquals(scores, players, points):
+  '''Handles a situation when two or more players scored the same points'''
   if len(set(scores)) == 1:
     print('\nAll the players have scored the same points in this round!')
     for index in range(len(points)):
@@ -24,6 +26,7 @@ def HandleEquals(scores, players, points):
       print('--> scored the same points in this round!')
 
 def RoundResult(scores, players, points):
+  '''Returns the results of the rounds'''
   if len(scores) != len(set(scores)):
     HandleEquals(scores, players, points)
   else:
@@ -32,6 +35,7 @@ def RoundResult(scores, players, points):
     print(f'\n{players[index]} has won this round!')
 
 def GameResult(points, players):
+  '''Returns the results of the game'''
   if len(set(points)) == 1:
     print(f'\n\nAll the players have scored the same points')
     print('Congatulations! All')
@@ -48,6 +52,7 @@ def GameResult(points, players):
       print('--> scored the same points in the game!')
 
 def DiceGame(rounds, n_players, players):
+  '''Main function of the Dice Game'''
   points = [0 for _ in range(n_players)]
   for round in range(1, rounds + 1):
     scores = []
@@ -65,6 +70,7 @@ def DiceGame(rounds, n_players, players):
   GameResult(points, players)
  
 def GameRepeat():
+  '''Ask the user whether they want to repeat the game or not and proceed further accordingly'''
   time.sleep(0.5)
   decision = input('\n\nWould you like to play the game once again(y/n)? ').lower()
   if decision == 'y':
@@ -77,6 +83,7 @@ def GameRepeat():
 
 # Driver Code
 def main():
+  '''Main function'''
   rounds = int(input('\nEnter the total number of rounds you want to play for: '))
   n_players = int(input('Enter the total number of players: '))
   players = []
