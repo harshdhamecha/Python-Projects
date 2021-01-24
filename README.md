@@ -15,6 +15,7 @@ This project aims to convert the temperature from celsius to fahrenheit and from
 #### Output 
 ![](Temperature-Converter/output.JPG)
 ## Password Generator
+This project aims to generate a random password of user input length using the [**`secrets`**](https://docs.python.org/3/library/secrets.html) and `string` module. The reason I've used `secrets` module is that it increases the security. 
 #### Output 
 ![](Password-Generator/output.JPG)
 ## Dice Simulator
