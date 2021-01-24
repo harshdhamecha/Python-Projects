@@ -1,5 +1,17 @@
 # Python-Projects
 This repo contains some beginner friendly Python Projects. 
+## Acronym Generator
+#### Output 
+![](Acronym-Generator/output.JPG)
+## BMI Calculator
+#### Output 
+![](BMI-Calculator/output.JPG)
+## Temperature Converter
+#### Output 
+![](Temperature-Converter/output.JPG)
+## Password Generator
+#### Output 
+![](Password-Generator/output.JPG)
 ## Dice Simulator
 This is considered as the most basic project in python. I have used the `time` and `random` module in this project. Basically, [this](Dice-Simulator) project is all about generating a random number in the range of 1 to 6 for some number of times(attempts) and lastly displaying the total score with the attempts.    
 #### Output 
