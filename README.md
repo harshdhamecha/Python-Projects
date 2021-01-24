@@ -1,9 +1,12 @@
 # Python-Projects
 This repo contains some beginner friendly Python Projects. 
 ## Acronym Generator
+An acronym is a word or name formed from the initial components of a longer name or phrase, usually using individual initial letters. This project aims to generate an Acronym for any user given input.
 #### Output 
 ![](Acronym-Generator/output.JPG)
 ## BMI Calculator
+Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. This project aims to calculate the BMI of a user. Following is the formula to calculate BMI:  
+![](https://www.thelifeinsuranceblog.com/wp-content/uploads/2017/04/calculation_formula.png)
 #### Output 
 ![](BMI-Calculator/output.JPG)
 ## Temperature Converter
