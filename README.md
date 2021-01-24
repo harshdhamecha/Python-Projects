@@ -11,6 +11,7 @@ Body mass index (BMI) is a measure of body fat based on height and weight that a
 #### Output 
 ![](BMI-Calculator/output.JPG)
 ## Temperature Converter
+This project aims to convert the temperature from celsius to fahrenheit and from fahrenheit to celsius.
 #### Output 
 ![](Temperature-Converter/output.JPG)
 ## Password Generator
