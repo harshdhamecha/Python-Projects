@@ -26,3 +26,10 @@ This is considered as the most basic project in python. I have used the `time` a
 This project uses the concept of [Dice Simulator](Dice-Simulator/dice_simulator.py). [This](Dice-Game) game supports multi-players and multi-rounds.    
 #### Output 
 ![](Dice-Game/output.JPG)
+## Word Cloud Generator
+Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance. Significant textual data points can be highlighted using a word cloud. Word clouds are widely used for analyzing data from social network websites. We'll be using `pandas`, `wordcloud` and `matplotlib` modules of Python.  
+- `pandas` to read data file which includes words for generating word cloud
+- `matplotlib` to plot word cloud figure
+- `wordcloud` to generate wordcloud
+#### Output 
+![](Word-Cloud/output.PNG)
