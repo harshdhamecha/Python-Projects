@@ -32,4 +32,4 @@ Word Cloud is a data visualization technique used for representing text data in 
 - `matplotlib` to plot word cloud figure
 - `wordcloud` to generate wordcloud
 #### Output 
-![](Word-Cloud/output.PNG)
+![](Word-Cloud/output.JPG)
